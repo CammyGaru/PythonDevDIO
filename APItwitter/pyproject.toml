@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "apitwitter-toml"
+version = "1.0.0"
+description = ""
+authors = ["camily garuche"]
+readme = "README.md"
+packages = [{include = "apitwitter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pymongo = "^4.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
